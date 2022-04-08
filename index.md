@@ -12,9 +12,9 @@
 List
 - List
 - > Blockquote	 "> blockquote" altogether is a code
-> Blockquote  > Blockquote
+> Blockquote  > Blockquote   "blockquote" not necessarily need at left most side
 
-> Blockquote	
+
 
 ---
 ***
