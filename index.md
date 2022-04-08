@@ -27,9 +27,9 @@ List //even vertical written code *"gfe"   still horizontal in same row (* list 
 --- 
 ***
 
-'inline code'
+`inline code'
 
-'''
+
 code block
-'''
+```
 
