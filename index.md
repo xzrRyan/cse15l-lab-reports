@@ -21,6 +21,7 @@ List //even vertically written code *"gfe"   still in same row (* list must work
 ---    must occupy whole line
 ***
 [external website](https://www.planetware.com/pictures/france-f.htm)
+[markdown grammar](https://commonmark.org/help/)
 
 ![drag image to url in that website, to see the url of .jpg](https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg)
 
