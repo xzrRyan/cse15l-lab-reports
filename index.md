@@ -17,9 +17,9 @@
 
 ---
 ***
-[hello](http://a.com)
+[external website](https://www.planetware.com/pictures/france-f.htm)
 
-![abcd](https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg)
+![drag image to url in that website, to see the url of .jpg](https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg)
 ---
 ***
 
