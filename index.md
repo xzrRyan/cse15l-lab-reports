@@ -19,7 +19,7 @@
 ***
 [hello](http://a.com)
 
-![abcd](file:///Users/xzr/Desktop/Screen%20Shot%202022-02-23%20at%209.27.32%20PM.png)
+![abcd](https://github.com/xzrRyan/cse15l-lab-reports/blob/main/Screen%20Shot%202022-02-23%20at%209.27.32%20PM.png)
 ---
 ***
 
