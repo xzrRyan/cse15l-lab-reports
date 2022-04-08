@@ -23,6 +23,7 @@ List //even vertical written code *"gfe"   still horizontal in same row (* list 
 [external website](https://www.planetware.com/pictures/france-f.htm)
 
 ![drag image to url in that website, to see the url of .jpg](https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg)
+
 ---
 ***
 
