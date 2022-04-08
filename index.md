@@ -9,9 +9,9 @@
 
 > Blockquote
 * List
- List
+List
 - List
-- > Blockquote	
+- > Blockquote	 "> blockquote" altogether is a code
 
 > Blockquote	
 
