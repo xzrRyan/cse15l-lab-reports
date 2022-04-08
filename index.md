@@ -18,7 +18,7 @@ List //even vertical written code *"gfe"   still horizontal in same row (* list 
 2. b  
 3. c
 
----
+---    must occupy whole line
 ***
 [external website](https://www.planetware.com/pictures/france-f.htm)
 
