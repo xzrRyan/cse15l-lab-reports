@@ -24,7 +24,7 @@ List //even vertical written code *"gfe"   still horizontal in same row (* list 
 
 ![drag image to url in that website, to see the url of .jpg](https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg)
 
----  //--- and *** don't need to come together
+--- 
 ***
 
 'inline code'
