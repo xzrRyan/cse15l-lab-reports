@@ -9,7 +9,7 @@
 
 > Blockquote
 * List
-List //even vertical written code *"gfe"   still horizontal in same row
+List //even vertical written code *"gfe"   still horizontal in same row *huhu
 - List
 - > Blockquote	 "> blockquote" altogether is a code
 > Blockquote  > Blockquote   "> blockquote" must work need at left most side
