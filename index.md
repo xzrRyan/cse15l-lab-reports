@@ -12,7 +12,7 @@
 List //even vertical written code *"gfe"   still horizontal in same row (* list must work at left most side)
 - List
 - > Blockquote	 "> blockquote" altogether is a code
-> Blockquote  > Blockquote   "> blockquote" must work need at left most side
+> Blockquote  > Blockquote   "> blockquote" must work need at left most side, can be after - 
 
 1. a   
 2. b  
