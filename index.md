@@ -8,7 +8,7 @@
 ### HELLO
 *headings are all in bold*
 
-> a
+> a (must one line separated above, below, otherwise also in blockquote
 * List
 List //even vertically written code *"gfe"   still in same row (* list must work at left most side)
 - List
