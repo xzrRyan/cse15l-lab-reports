@@ -35,4 +35,7 @@ List //even vertically written code *"gfe"   still in same row (* list must work
 code block
 ```
 
-[Lab Report 1](https://xzrryan.github.io/cse15l-lab-reports/index.html)
+[Lab Report 1](lab-report-1-week-2.html)short version link only works after clicking it on website
+[Lab Report 1](https://xzrryan.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+both version can link to itself
+
