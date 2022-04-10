@@ -7,6 +7,12 @@
 3. open downloaded VScode, it should be like this ![VScode]()
 
 ## Part 2 Remote connection
+1. 
 
 
+## Part 3 Remote connection
+
+
+
+## Part 4 Remote connection
 
