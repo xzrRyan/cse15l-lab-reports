@@ -6,4 +6,7 @@
 2. select the version for your operation system. ![VScode]()
 3. open downloaded VScode, it should be like this ![VScode]()
 
-![image from repository](Screen%20Shot%202022-04-08%20at%203.12.35%20PM.png)
+## Part 2 Remote connection
+
+
+
