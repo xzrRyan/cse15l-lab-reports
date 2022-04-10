@@ -11,6 +11,7 @@
 
 ## Part 2 Remote connection
 > remote connection is usually done by **SSH** (Secure Shell Protocol) between local computer and server.
+
 1. SSH requires `account` and `password` to remotely access to server account. You can find `acoount` and update `password` in [there](https://sdacs.ucsd.edu/~icc/index.php)
 
 2. Opening a terminal, type `ssh` `Youraccount` and then type `Yourpassword`
@@ -20,6 +21,7 @@ as below ![below](ssh.png)
 
 ## Part 3 Linux commands
 > linux commands can be convenient to edit files' position, properties, and content without actually seeing/clicking it.
+
 * **Some commands you can put in the terminal**
 1. `ls` (lists all files/ directories under current directory)![below](ls.png)
 2. `pwd` (print current directory)![below](pwd.png)
@@ -33,4 +35,5 @@ as below ![below](ssh.png)
 
 ## Part 5 setting SSH key
 > Keeping a `public` SSH key on server account while a `private` SSH key on the client saves your time from typing password when `ssh` or `scp` file to access to your server account
+
 1. on client terminal, type `ssh-keygen`. This command generates both `public` and `private` key files on the client
