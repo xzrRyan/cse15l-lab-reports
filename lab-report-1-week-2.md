@@ -24,11 +24,11 @@ as below ![below](ssh.png)
 
 **Some commands you can put in the terminal**
 1. `ls` (lists all files/ directories under current directory)
-![below](ls.png)
+> ![below](ls.png)
 2. `pwd` (print current directory)
-![below](pwd.png)
+> ![below](pwd.png)
 3. `cat` `Yourfilename` (print all the content in Yourfilename) 
-![below](cat.png)
+> ![below](cat.png)
 
 ## Part 4 Moving file with scp
 > scp is a command to copy your `specified local file` to your server account under `specified directory`.
