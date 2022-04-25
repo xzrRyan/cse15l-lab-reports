@@ -14,7 +14,7 @@ enjoy :)
 to the end of file
 
 > File link is attached here
-[Failure-Inducing input](test-file2.md)
+[Failure-Inducing input1](test-file2.md)
 
 ### 3. Failure-inducing symptoms
 > The failure symptom is `Java Heap OutOfMemoryError`.
@@ -43,14 +43,14 @@ to the end of file
 to the end of file
 
 > File link is attached here
-[Failure-Inducing input3](test-file3.md)
+[Failure-Inducing input2](test-file3.md)
 
 ### 3. Failure-inducing symptoms
 > The failure symptom is `Java Heap OutOfMemoryError`.
 
 ![symptom2](input2.png)
 
-### 4. Reason behind our code change
+### 4. Discussion on bug and symptom
 > The failure inducing input is `missing open parenthsis` at the end of file.
 
 > Our modified code only considers `missing open bracket`, while didn't consider when `indexOf` method call `returns -1` for not finding `open parenthesis`, so the missing `open parenthesis` at the end of file returns `-1` to `indexOf` as starting index to find `close parenthesis`. `indexOf` method treats `-1` as `0` to search first occurrence index of `close parenthesis` in the file. 
@@ -70,7 +70,7 @@ to the end of file
 [enjoy] (:
 ``` 
 > File link is attached here
-[Failure-Inducing input](test-file4.md)
+[Failure-Inducing input3](test-file4.md)
 
 ### 3. Failure-inducing symptoms
 > The failure symptom is `String IndexOutOfBounds Error`.
@@ -78,8 +78,9 @@ to the end of file
 ![symptom3](input3.png)
 
 
-### 4. Reason behind our code change
+### 4. Discussion on bug and symptom
 > The failure inducing input is `missing close parenthsis` at the end of file.
 
 > Our modified code only considers `missing open bracket and parenthsis`, while didn't consider when `indexOf` method call `returns -1` for not finding `close parenthesis`, so the missing `close parenthesis` at the end of file returns `-1`
+
 > `Add url link` to `Arraylist` is based on `substring` method to take `index` of `open parenthesis + 1 and close parenthesis`. However, it is illegal for `substring` method to take `negative number -1` as `ending index parameter`, so it causes `String IndexOutOfBounds Error`
