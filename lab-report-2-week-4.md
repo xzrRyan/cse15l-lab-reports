@@ -58,7 +58,7 @@ to the end of file
 >Along this way,`substring method` in our previous code repeatedly `add` either `first` url in the file, or everything before `first` url link's `close parenthesis` in the file to `ArrayList` and `cannot break the while loop`. It causes `Heap OutOfMemory`.
 
 
-## Third Code Change__
+## __Third Code Change__
 
 ### 1. Commit history
 ![First code change](Third-change.png)
