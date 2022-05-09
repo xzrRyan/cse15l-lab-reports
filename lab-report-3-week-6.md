@@ -22,16 +22,13 @@
 1. Using `gen-key` on `ieng6 server account` to create both public and private ssh key files
 
 > Public key's absolute path on server account is `/home/linux/ieng6/cs15lsp22/cs15lsp22ahn/.ssh/id_rsa.pub`
-
 ![ieng6publickey](publicSSHKey.png)
 
 > Public key located in Github in `profile > setting > SSH and GPG keys > New SSH key` 
-
 ![ieng6gitkey](Githubkey.png)
 
 2. Private key's absolute path is also under `.ssh` directory on server account
 > `/home/linux/ieng6/cs15lsp22/cs15lsp22ahn/.ssh/id_rsa`
-
 ![privateKey](privatekey.png)
 
 3. Adding two new files `hola.txt` and `vanikkam.txt` into `test repository` on `ieng6 server account` and `commit` changes
@@ -57,6 +54,6 @@ Compiling `MarkdownParse.java` and `MarkdownPaseTest.java` and running `Markdown
     ```
     `scp command` running first in `local computer`
     ![oneline](javacVersion.png)
-    
+
     Then `ssh command` running followed by `cd` with `javac` and `java` in correct versions on `server account`
     ![success](success.png)
