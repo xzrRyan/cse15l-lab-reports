@@ -11,8 +11,7 @@
     ```
     ![config](sshkeyhost.png)
 
-3. Logging to the `cs15lsp22ahn server account` with alias `ieng6`
-    ![ssh](sshAlias.png)
+3. Logging to the `cs15lsp22ahn server account` with alias `ieng6`![ssh](sshAlias.png)
 
 4. `scp sshStreamlineFile.txt` to the server account with alias `ieng6` 
 ![scpFile](scpAlias.png)
@@ -58,6 +57,6 @@ Compiling `MarkdownParse.java` and `MarkdownPaseTest.java` and running `Markdown
     ```
     `scp command` running first in `local computer`
     ![oneline](javacVersion.png)
-
+    
     Then `ssh command` running followed by `cd` with `javac` and `java` in correct versions on `server account`
     ![success](success.png)
