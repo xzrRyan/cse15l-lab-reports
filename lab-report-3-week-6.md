@@ -16,7 +16,6 @@
 
 4. `scp sshStreamlineFile.txt` to the server account with alias `ieng6` 
 ![scpFile](scpAlias.png)
-Successful `scp command`
 ![success](sucessfulSCP.png)
 
 ## Github Access from ieng6
@@ -26,7 +25,7 @@ Successful `scp command`
 
 ![ieng6publickey](publicSSHKey.png)
 
-> Public key is located in Github profile > setting > SSH and GPG keys > add SSH key 
+> Public key located in Github in `profile > setting > SSH and GPG keys > New SSH key` 
 
 ![ieng6gitkey](Githubkey.png)
 
@@ -49,7 +48,15 @@ Successful `scp command`
 
 2. `markdown-parse directory` now in server account
 ![server](MarkdownServer.png)
-Compiling `MarkdownParse.java` and `MarkdownPaseTest.java`and running `MarkdownPaseTest`
+Compiling `MarkdownParse.java` and `MarkdownPaseTest.java` and running `MarkdownPaseTest`
 ![test](RunningTest.png)
 
-3. 
+3. Combining `scp`,`ssh`, `javac`, and `java` in one command line
+    ```
+    scp -r . ieng6:~/markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParse.java MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore MarkdownParseTest"
+    ```
+    `scp command` running first in `local computer`
+    ![oneline](javacVersion.png)
+
+    Then `ssh command` running followed by `cd` with `javac` and `java` in correct versions on `server account`
+    ![success](success.png)
