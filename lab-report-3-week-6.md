@@ -33,7 +33,8 @@ Public key's absolute path on server account is `/home/linux/ieng6/cs15lsp22/cs1
 3. Adding two new files `hola.txt` and `vanikkam.txt` into `test repository` on `ieng6 server account` and `commit` changes
 ![commit](GitCommit.png)
 
-4. `Push` commits from `ieng6 server account` to `test repository on GitHub`![push](PushCommit.png)
+4. `Push` commits from `ieng6 server account` to `test repository on GitHub`
+![push](PushCommit.png)
 
 5. Link of `commit` history is attached [here](https://github.com/xzrRyan/test/commit/9211ef7c37a15e228a6451e66ebb4e69bbc651b9)
 
