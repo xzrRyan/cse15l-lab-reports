@@ -23,7 +23,6 @@
 
 > Public key's absolute path on server account is `/home/linux/ieng6/cs15lsp22/cs15lsp22ahn/.ssh/id_rsa.pub`
 ![ieng6publickey](publicSSHKey.png)
-
 > Public key located in Github in `profile > setting > SSH and GPG keys > New SSH key` 
 ![ieng6gitkey](Githubkey.png)
 
