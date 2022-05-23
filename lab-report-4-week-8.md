@@ -65,7 +65,7 @@ The Junit output fails on `snippet2` for `assertEquals` between `expected output
 
     > The error exception is thrown by my conditional branch to check `backticks`, and I can modify the conditional branch by using `indexOf` method for `backticks` one after another, and compare backticks' indices with open/close Bracket/Parentheses so to avoid `substring(-1, 0)` for `no backtick `before `first openBracket` in Markdown file.
 
-    > Nested Brackets, escaped Brackets, and Parenthese inside `Brackets/Parenthese` will not affect website link search. Catching `closeBracket` is still enough to find nearest `openParen/closeParen` pairs. However, `nested Brackes and Parenthese inside Parenthese` will affect website link search. For example, [name](((websitelink)[[\]])), expected website link is between the `first openParen` and `last closeParen`, but it needs a complex conditional branche more than 10 lines to catch the `expected last openParen`, since the nested openBracket prevent searching based on `next closest openBracket`.
+    > Nested Brackets, escaped Brackets, and Parenthese inside `Brackets/Parenthese` will not affect website link search. Catching `closeBracket` is still enough to find nearest `openParen/closeParen` pairs. However, `nested Brackes and Parenthese inside Parenthese` will affect website link search. For example, `[name](((websitelink)[[\]]))`, expected website link is between the `first openParen` and `last closeParen`, but it needs a complex conditional branche more than 10 lines to catch the `expected last openParen`, since the nested openBracket prevent searching based on `next closest openBracket`.
 
 ### Snippet 3
 
