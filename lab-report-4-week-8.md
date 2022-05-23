@@ -86,11 +86,12 @@ The Junit output fails on `snippet2`
 
 * Adding Test `snippet3` to my `MarkdownParseTester` 
 ![snippet3](Snippet3Mycode.png)
-The Junit output fails on `snippet2 with IndexOutOfBounds exception`
-![snippet3](Snippet2Mycode.png)
+The Junit output fails on `snippet3 with IndexOutOfBounds exception`
+![snippet3](Snippet3Output.png)
 
-* Adding Test `snippet2` to review `MarkdownParseTester` 
-![snippet3](ReviewSnippet2Test.png)
+* Adding Test `snippet3` to review `MarkdownParseTester` 
+![snippet3](Snippet3Tester.png)
 The Junit output fails on `snippet2`
-![snippet3](ReviewSnippet2.png)
+![snippet3](ReviewCodeSnippet3.png)
     
+* My code revision
