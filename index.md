@@ -45,3 +45,7 @@ both version can link to itself; same for picture link
 [lab Report 3](https://xzrryan.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
 [lab Report 4](https://xzrryan.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+[lab Report 5](https://xzrryan.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
+
