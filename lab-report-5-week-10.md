@@ -26,16 +26,15 @@ Then `running` MarkdownParse with `test-files` through `bash script.sh` and dire
 
 > `Actual output` for `my version` of MarkdownParse is shown below in the picture
 
-    ![myversion](Myversion-for22.png)
+>![myversion](Myversion-for22.png)
 
 > `Actual output` for `lab 9 version` of MarkdownParse is shown below in the picture
 
-    ![lab9version](lab9version-for22.png)
+>![lab9version](lab9version-for22.png)
 
 > `Expected output` for testing file `22.md` is analyzed in `VScode preview mode`
+![expectedfor22](Expectedfor22.png)
 
-    ![expectedfor22](Expectedfor22.png)
-    
 > Though `/bar\* "ti\*tle"` is shown as a complete `link` in markdown language, but the content inside parenthese `cannot be a valid website link`, so it is `not` the content we expect MarkdownParse to grab.
 > In this case, only `lab 9` version of MarkdownParse returns an `empty` output consistent with `expected` output
 
@@ -55,18 +54,16 @@ Then, I should add a new `conditional branch` between the code on `line 27` and 
 > `lab 9 version` of MarkdownParse gives out `correct` output
 
 > `Actual output` for `my version` of MarkdownParse is shown below in the picture
-![myversion](Myversionfor567.png)
+
+> ![myversion](Myversionfor567.png)
 
 > `Actual output` for `lab 9 version` of MarkdownParse is shown below in the picture
-![lab9version](lab9versionfor567.png)
+
+> ![lab9version](lab9versionfor567.png)
 
 > `Expected output` for testing file `567.md` is analyzed in `VScode preview mode`
 ![expectedfor567](Expectfor567.png)
-```
-[foo](not a link)
 
-[foo]: /url1
-```
 > Though `foo` in the first line in `567.md` is `highlighted blue` as a `link` in markdown language, the content inside parenthese `cannot be a valid website link`, so it is `not` the content we expect MarkdownParse to grab.
 > In this case, only `lab 9` version of MarkdownParse returns an `empty` output consistent with `expected` output
 
