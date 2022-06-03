@@ -1,10 +1,10 @@
 # CSE 15L lab report 5
 
 ## Compiling and running MarkdownParse
-> Compiling both my version and lab 9 version `MarkdownParse.java` on `ieng6 account` through `make test` rule in command lines. Then `running` MarkdownParse with `test-files` through `bash script.sh` and direct all `running outputs` into `result.txt`
+> Compiling both my version and lab 9 version `MarkdownParse.java` on `ieng6 account` through `make test` rule in command lines.
 ![image of original](compileMyversion.png)
 ![image of lab9](compileLab9Version.png)
-through `bash script.sh` in command lines
+Then `running` MarkdownParse with `test-files` through `bash script.sh` and direct all `running outputs` into `result.txt`
 ![image of original](runningMarkdownParse.png)
 ![image of lab9](runningLab9Markdown.png)
 
